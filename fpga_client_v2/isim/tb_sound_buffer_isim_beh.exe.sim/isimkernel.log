@@ -1,0 +1,28 @@
+Command line:
+   tb_sound_buffer_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  53636
+
+Mon Feb 02 14:55:17 2015
+
+
+ Elaboration Time: 0.09375 sec
+
+ Current Memory Usage: 839.123 Meg
+
+ Total Signals          : 164
+ Total Nets             : 816
+ Total Signal Drivers   : 70
+ Total Blocks           : 20
+ Total Primitive Blocks : 15
+ Total Processes        : 85
+ Total Traceable Variables  : 360
+ Total Scalar Nets and Variables : 1747364
+
+ Total Simulation Time: 7.875 sec
+
+ Current Memory Usage: 839.123 Meg
+
+Mon Feb 02 14:55:58 2015
+

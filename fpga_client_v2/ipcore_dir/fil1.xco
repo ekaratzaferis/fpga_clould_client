@@ -1,0 +1,62 @@
+##############################################################
+#
+# Xilinx Core Generator version K.39
+# Date: Wed Dec 15 17:42:24 2010
+#
+##############################################################
+#
+#  This file contains the customisation parameters for a
+#  Xilinx CORE Generator IP GUI. It is strongly recommended
+#  that you do not manually alter this file as it may cause
+#  unexpected and unsupported behavior.
+#
+##############################################################
+#
+# BEGIN Project Options
+SET addpads = False
+SET asysymbol = False
+SET busformat = BusFormatAngleBracketNotRipped
+SET createndf = False
+SET designentry = VHDL
+SET device = xc2vp30
+SET devicefamily = virtex2p
+SET flowvendor = Other
+SET formalverification = False
+SET foundationsym = False
+SET implementationfiletype = Ngc
+SET package = ff896
+SET removerpms = False
+SET simulationfiles = Behavioral
+SET speedgrade = -7
+SET verilogsim = False
+SET vhdlsim = True
+# END Project Options
+# BEGIN Select
+SELECT CIC_Compiler family Xilinx,_Inc. 1.2
+# END Select
+# BEGIN Parameters
+CSET ce=true
+CSET clock_frequency=100.0
+CSET component_name=fil1
+CSET differential_delay=2
+CSET filter_type=Interpolation
+CSET fixed_or_initial_rate=4
+CSET input_data_width=16
+CSET input_sample_frequency=0.5
+CSET maximum_rate=4
+CSET minimum_rate=4
+CSET number_of_channels=1
+CSET number_of_stages=6
+CSET output_data_width=32
+CSET passband_max=0.001
+CSET passband_min=0.0
+CSET quantization=Truncation
+CSET sample_rate_changes=Fixed
+CSET sclr=false
+CSET stopband_max=1.0
+CSET stopband_min=0.001
+CSET use_xtreme_dsp_slice=false
+# END Parameters
+GENERATE
+# CRC: 15df0a2f
+

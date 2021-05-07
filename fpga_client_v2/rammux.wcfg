@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/VHDL/fpga_client_v2/tb_ram_mux_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_ram_mux" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="18" />
+   <wvobject fp_name="/tb_ram_mux/rst0_tb" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rst0_tb</obj_property>
+      <obj_property name="ObjectShortName">rst0_tb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ram_mux/clk0_tb" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk0_tb</obj_property>
+      <obj_property name="ObjectShortName">clk0_tb</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider18" type="divider">
+      <obj_property name="label">WRITE</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">128 128 255</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ram_mux/write_ram" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">write_ram</obj_property>
+      <obj_property name="ObjectShortName">write_ram</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ram_mux/ram_state" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ram_state[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ram_state[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ram_mux/uut/refresh_write" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">refresh_write</obj_property>
+      <obj_property name="ObjectShortName">refresh_write</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ram_mux/uut/write_fsm" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">write_fsm[4:0]</obj_property>
+      <obj_property name="ObjectShortName">write_fsm[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider19" type="divider">
+      <obj_property name="label">READ</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">128 128 255</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ram_mux/read_ram" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">read_ram</obj_property>
+      <obj_property name="ObjectShortName">read_ram</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ram_mux/data_ready" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">data_ready</obj_property>
+      <obj_property name="ObjectShortName">data_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ram_mux/uut/refresh_read" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">refresh_read</obj_property>
+      <obj_property name="ObjectShortName">refresh_read</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ram_mux/uut/read_fsm" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">read_fsm[4:0]</obj_property>
+      <obj_property name="ObjectShortName">read_fsm[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ram_mux/uut/reseted" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">reseted[1:0]</obj_property>
+      <obj_property name="ObjectShortName">reseted[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider17" type="divider">
+      <obj_property name="label">RAM</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">128 128 255</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ram_mux/cmd" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">cmd[2:0]</obj_property>
+      <obj_property name="ObjectShortName">cmd[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ram_mux/address" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">address[30:0]</obj_property>
+      <obj_property name="ObjectShortName">address[30:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ram_mux/af_we" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">af_we</obj_property>
+      <obj_property name="ObjectShortName">af_we</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ram_mux/wdf_we" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">wdf_we</obj_property>
+      <obj_property name="ObjectShortName">wdf_we</obj_property>
+   </wvobject>
+</wave_config>

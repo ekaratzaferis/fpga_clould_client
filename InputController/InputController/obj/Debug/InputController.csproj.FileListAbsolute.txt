@@ -1,0 +1,5 @@
+c:\users\alexandros\documents\visual studio 2013\Projects\InputController\InputController\bin\Debug\InputController.exe.config
+c:\users\alexandros\documents\visual studio 2013\Projects\InputController\InputController\bin\Debug\InputController.exe
+c:\users\alexandros\documents\visual studio 2013\Projects\InputController\InputController\bin\Debug\InputController.pdb
+c:\users\alexandros\documents\visual studio 2013\Projects\InputController\InputController\obj\Debug\InputController.exe
+c:\users\alexandros\documents\visual studio 2013\Projects\InputController\InputController\obj\Debug\InputController.pdb

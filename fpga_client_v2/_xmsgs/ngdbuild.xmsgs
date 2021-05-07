@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="ConstraintSystem" num="0" >TNM : clk_tx0 was distributed to a DCM but new TNM constraints were not derived. This TNM is used in the following user groups or specifications:
+&lt;TIMEGRP  &quot;emac_tx_clk0&quot;            = &quot;clk_tx0&quot;;&gt; [top_ucf.ucf(71)]
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="0" >The Period constraint &lt;NET AC97_clk PERIOD = 10000 ps;&gt; [top_ucf.ucf(30)], is specified using the Net Period method which is not recommended. Please use the Timespec PERIOD method.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;INST /emac_example_design/EXPANDED/emac_example_design/v5_emac_ll\/v5_emac_block_inst\/gmii0\/GMII_TXD_7 IOB = true&gt;</arg> is overridden on the design object <arg fmt="%s" index="2">v5_emac_ll/v5_emac_block_inst/gmii0/GMII_TXD_7</arg> by the constraint <arg fmt="%s" index="3">&lt;INST &quot;*gmii0?GMII_TXD_?&quot;     IOB = true;&gt; [top_ucf.ucf(116)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;INST /emac_example_design/EXPANDED/emac_example_design/v5_emac_ll\/v5_emac_block_inst\/gmii0\/GMII_TXD_6 IOB = true&gt;</arg> is overridden on the design object <arg fmt="%s" index="2">v5_emac_ll/v5_emac_block_inst/gmii0/GMII_TXD_6</arg> by the constraint <arg fmt="%s" index="3">&lt;INST &quot;*gmii0?GMII_TXD_?&quot;     IOB = true;&gt; [top_ucf.ucf(116)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;INST /emac_example_design/EXPANDED/emac_example_design/v5_emac_ll\/v5_emac_block_inst\/gmii0\/GMII_TXD_5 IOB = true&gt;</arg> is overridden on the design object <arg fmt="%s" index="2">v5_emac_ll/v5_emac_block_inst/gmii0/GMII_TXD_5</arg> by the constraint <arg fmt="%s" index="3">&lt;INST &quot;*gmii0?GMII_TXD_?&quot;     IOB = true;&gt; [top_ucf.ucf(116)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;INST /emac_example_design/EXPANDED/emac_example_design/v5_emac_ll\/v5_emac_block_inst\/gmii0\/GMII_TXD_4 IOB = true&gt;</arg> is overridden on the design object <arg fmt="%s" index="2">v5_emac_ll/v5_emac_block_inst/gmii0/GMII_TXD_4</arg> by the constraint <arg fmt="%s" index="3">&lt;INST &quot;*gmii0?GMII_TXD_?&quot;     IOB = true;&gt; [top_ucf.ucf(116)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;INST /emac_example_design/EXPANDED/emac_example_design/v5_emac_ll\/v5_emac_block_inst\/gmii0\/GMII_TXD_3 IOB = true&gt;</arg> is overridden on the design object <arg fmt="%s" index="2">v5_emac_ll/v5_emac_block_inst/gmii0/GMII_TXD_3</arg> by the constraint <arg fmt="%s" index="3">&lt;INST &quot;*gmii0?GMII_TXD_?&quot;     IOB = true;&gt; [top_ucf.ucf(116)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;INST /emac_example_design/EXPANDED/emac_example_design/v5_emac_ll\/v5_emac_block_inst\/gmii0\/GMII_TXD_2 IOB = true&gt;</arg> is overridden on the design object <arg fmt="%s" index="2">v5_emac_ll/v5_emac_block_inst/gmii0/GMII_TXD_2</arg> by the constraint <arg fmt="%s" index="3">&lt;INST &quot;*gmii0?GMII_TXD_?&quot;     IOB = true;&gt; [top_ucf.ucf(116)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;INST /emac_example_design/EXPANDED/emac_example_design/v5_emac_ll\/v5_emac_block_inst\/gmii0\/GMII_TXD_1 IOB = true&gt;</arg> is overridden on the design object <arg fmt="%s" index="2">v5_emac_ll/v5_emac_block_inst/gmii0/GMII_TXD_1</arg> by the constraint <arg fmt="%s" index="3">&lt;INST &quot;*gmii0?GMII_TXD_?&quot;     IOB = true;&gt; [top_ucf.ucf(116)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;INST /emac_example_design/EXPANDED/emac_example_design/v5_emac_ll\/v5_emac_block_inst\/gmii0\/GMII_TXD_0 IOB = true&gt;</arg> is overridden on the design object <arg fmt="%s" index="2">v5_emac_ll/v5_emac_block_inst/gmii0/GMII_TXD_0</arg> by the constraint <arg fmt="%s" index="3">&lt;INST &quot;*gmii0?GMII_TXD_?&quot;     IOB = true;&gt; [top_ucf.ucf(116)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;INST /emac_example_design/EXPANDED/emac_example_design/v5_emac_ll\/v5_emac_block_inst\/gmii0\/GMII_TX_ER IOB = true&gt;</arg> is overridden on the design object <arg fmt="%s" index="2">v5_emac_ll/v5_emac_block_inst/gmii0/GMII_TX_ER</arg> by the constraint <arg fmt="%s" index="3">&lt;INST &quot;*gmii0?GMII_TX_ER&quot;     IOB = true;&gt; [top_ucf.ucf(118)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;INST /emac_example_design/EXPANDED/emac_example_design/v5_emac_ll\/v5_emac_block_inst\/gmii0\/GMII_TX_EN IOB = true&gt;</arg> is overridden on the design object <arg fmt="%s" index="2">v5_emac_ll/v5_emac_block_inst/gmii0/GMII_TX_EN</arg> by the constraint <arg fmt="%s" index="3">&lt;INST &quot;*gmii0?GMII_TX_EN&quot;     IOB = true;&gt; [top_ucf.ucf(117)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="443" delta="old" >SFF primitive &apos;<arg fmt="%s" index="1">frame_buffer/MIG/u_ddr2_top_0/u_mem_if_top/u_phy_top/u_phy_io/u_phy_calib/gen_rden[7].u_calib_rden_r</arg>&apos; has unconnected output pin
+</msg>
+
+<msg type="warning" file="NgdBuild" num="443" delta="old" >SFF primitive &apos;<arg fmt="%s" index="1">frame_buffer/MIG/u_ddr2_top_0/u_mem_if_top/u_phy_top/u_phy_io/u_phy_calib/gen_rden[6].u_calib_rden_r</arg>&apos; has unconnected output pin
+</msg>
+
+<msg type="warning" file="NgdBuild" num="443" delta="old" >SFF primitive &apos;<arg fmt="%s" index="1">frame_buffer/MIG/u_ddr2_top_0/u_mem_if_top/u_phy_top/u_phy_io/u_phy_calib/gen_rden[5].u_calib_rden_r</arg>&apos; has unconnected output pin
+</msg>
+
+<msg type="warning" file="NgdBuild" num="443" delta="old" >SFF primitive &apos;<arg fmt="%s" index="1">frame_buffer/MIG/u_ddr2_top_0/u_mem_if_top/u_phy_top/u_phy_io/u_phy_calib/gen_rden[4].u_calib_rden_r</arg>&apos; has unconnected output pin
+</msg>
+
+<msg type="warning" file="NgdBuild" num="443" delta="old" >SFF primitive &apos;<arg fmt="%s" index="1">frame_buffer/MIG/u_ddr2_top_0/u_mem_if_top/u_phy_top/u_phy_io/u_phy_calib/gen_rden[3].u_calib_rden_r</arg>&apos; has unconnected output pin
+</msg>
+
+<msg type="warning" file="NgdBuild" num="443" delta="old" >SFF primitive &apos;<arg fmt="%s" index="1">frame_buffer/MIG/u_ddr2_top_0/u_mem_if_top/u_phy_top/u_phy_io/u_phy_calib/gen_rden[2].u_calib_rden_r</arg>&apos; has unconnected output pin
+</msg>
+
+<msg type="warning" file="NgdBuild" num="443" delta="old" >SFF primitive &apos;<arg fmt="%s" index="1">frame_buffer/MIG/u_ddr2_top_0/u_mem_if_top/u_phy_top/u_phy_io/u_phy_calib/gen_rden[1].u_calib_rden_r</arg>&apos; has unconnected output pin
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="new" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">N2085</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="new" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">N2086</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="new" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">N2087</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="new" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">N2088</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="new" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">N2089</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="new" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">N2090</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="new" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">N2091</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="new" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">N2092</arg>&apos; has no driver
+</msg>
+
+</messages>
+

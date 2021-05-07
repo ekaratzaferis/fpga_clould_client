@@ -1,0 +1,5 @@
+verilog work "write_burst.v"
+verilog work "read_burst.v"
+verilog work "ram_mux.v"
+verilog work "tb_ram_ram.v"
+verilog work "C:/Xilinx2/14.7/ISE_DS/ISE//verilog/src/glbl.v"

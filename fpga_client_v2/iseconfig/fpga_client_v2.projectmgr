@@ -1,0 +1,494 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--This is an ISE project configuration file.-->
+<!--It holds project specific layout data for the projectmgr plugin.-->
+<!--Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.-->
+<Project version="2" owner="projectmgr" name="fpga_client_v2" >
+   <!--This is an ISE project configuration file.-->
+   <ItemView engineview="SynthesisOnly" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/Automatic `includes</ClosedNode>
+         <ClosedNode>/CTLR_F C:|VHDL|fpga_client_v2|ctlr_f.v</ClosedNode>
+         <ClosedNode>/DVI C:|VHDL|fpga_client_v2|dvi.v</ClosedNode>
+         <ClosedNode>/DVI C:|VHDL|fpga_client_v2|dvi.v/DVIData - DVIData/PixCnt - PixelCounter/XCnt - Counter</ClosedNode>
+         <ClosedNode>/DVI C:|VHDL|fpga_client_v2|dvi.v/DVIData - DVIData/PixCnt - PixelCounter/YCnt - Counter</ClosedNode>
+         <ClosedNode>/DVIData C:|VHDL|fpga_client_v2|DVIData.v</ClosedNode>
+         <ClosedNode>/DVIInitial C:|VHDL|fpga_client_v2|DVIInitial.v</ClosedNode>
+         <ClosedNode>/HDMIController - Behavioral C:|VHDL|fpga_client_v2|HDMIController.vhd</ClosedNode>
+         <ClosedNode>/WXGASyncGen1680x1050_60Hz C:|VHDL|fpga_client_v2|WXGASyncGen1680x1050_60Hz.v</ClosedNode>
+         <ClosedNode>/ac97_if - IMP C:|VHDL|fpga_client_v2|ac97_if.vhd</ClosedNode>
+         <ClosedNode>/ac97_top C:|VHDL|fpga_client_v2|ac97_top.v/u14 - ac97_prc</ClosedNode>
+         <ClosedNode>/ac97_top C:|VHDL|fpga_client_v2|ac97_top.v/u16 - ac97_dma_if</ClosedNode>
+         <ClosedNode>/ddr2_top C:|VHDL|fpga_client_v2|ddr2_top.v/u_mem_if_top - ddr2_mem_if_top/u_phy_top - ddr2_phy_top</ClosedNode>
+         <ClosedNode>/devices C:|VHDL|fpga_client_v2|devices.v</ClosedNode>
+         <ClosedNode>/devices C:|VHDL|fpga_client_v2|devices.v/mouse - mouse</ClosedNode>
+         <ClosedNode>/dvi_encoder C:|VHDL|fpga_client_v2|dvi_encoder.v</ClosedNode>
+         <ClosedNode>/dvi_out_native C:|VHDL|fpga_client_v2|dvi_out_native.v</ClosedNode>
+         <ClosedNode>/dvid_test - Behavioral C:|VHDL|fpga_client_v2|dvid_test.vhd/Inst_dvid - dvid - Behavioral</ClosedNode>
+         <ClosedNode>/emac_example_design C:|VHDL|fpga_client_v2|emac_example_design.v/DVI - DVI/DVIData - DVIData</ClosedNode>
+         <ClosedNode>/emac_example_design C:|VHDL|fpga_client_v2|emac_example_design.v/DVI - DVI/DVIData - DVIData/PixCnt - PixelCounter</ClosedNode>
+         <ClosedNode>/emac_example_design C:|VHDL|fpga_client_v2|emac_example_design.v/DVI - DVI/DVIInit - DVIInitial</ClosedNode>
+         <ClosedNode>/emac_example_design C:|VHDL|fpga_client_v2|emac_example_design.v/DVI - DVI/DVIInit - DVIInitial/I2CCmdInit - FIFOInitial</ClosedNode>
+         <ClosedNode>/emac_example_design C:|VHDL|fpga_client_v2|emac_example_design.v/DVI - DVI/DVIInit - DVIInitial/I2CCmdInit - FIFOInitial/Cnt - Counter</ClosedNode>
+         <ClosedNode>/emac_example_design C:|VHDL|fpga_client_v2|emac_example_design.v/DVI - DVI/DVIInit - DVIInitial/I2CCmdInit - FIFOInitial/DataShft - ShiftRegister</ClosedNode>
+         <ClosedNode>/emac_example_design C:|VHDL|fpga_client_v2|emac_example_design.v/DVI - DVI/DVIInit - DVIInitial/I2CCmdInit - FIFOInitial/VldShft - ShiftRegister</ClosedNode>
+         <ClosedNode>/emac_example_design C:|VHDL|fpga_client_v2|emac_example_design.v/DVI - DVI/DVIInit - DVIInitial/I2CControl - I2CDRAMMaster/Master - I2CMaster</ClosedNode>
+         <ClosedNode>/emac_example_design C:|VHDL|fpga_client_v2|emac_example_design.v/DVI - DVI/DVIInit - DVIInitial/I2CControl - I2CDRAMMaster/WACnt - Counter</ClosedNode>
+         <ClosedNode>/emac_example_design C:|VHDL|fpga_client_v2|emac_example_design.v/DVI - DVI/DVIInit - DVIInitial/I2CDatInit - FIFOInitial</ClosedNode>
+         <ClosedNode>/emac_example_design C:|VHDL|fpga_client_v2|emac_example_design.v/HDMIController - HDMIController - Behavioral</ClosedNode>
+         <ClosedNode>/emac_example_design C:|VHDL|fpga_client_v2|emac_example_design.v/ac97_codec - ac97_if - IMP</ClosedNode>
+         <ClosedNode>/emac_example_design C:|VHDL|fpga_client_v2|emac_example_design.v/ac97_codec - ac97_if - IMP/ac97_core_I - ac97_core - IMP</ClosedNode>
+         <ClosedNode>/emac_example_design C:|VHDL|fpga_client_v2|emac_example_design.v/arp_responder - arp_responder - rtl</ClosedNode>
+         <ClosedNode>/emac_example_design C:|VHDL|fpga_client_v2|emac_example_design.v/data_tx - data_tx</ClosedNode>
+         <ClosedNode>/emac_example_design C:|VHDL|fpga_client_v2|emac_example_design.v/data_tx_rx - data_tx_rx</ClosedNode>
+         <ClosedNode>/emac_example_design C:|VHDL|fpga_client_v2|emac_example_design.v/devices - devices</ClosedNode>
+         <ClosedNode>/emac_example_design C:|VHDL|fpga_client_v2|emac_example_design.v/devices - devices/keyboard - keyboard/ps2_interface - ps2_host</ClosedNode>
+         <ClosedNode>/emac_example_design C:|VHDL|fpga_client_v2|emac_example_design.v/devices - devices/mouse - mouse</ClosedNode>
+         <ClosedNode>/emac_example_design C:|VHDL|fpga_client_v2|emac_example_design.v/devices - devices/mouse - mouse/mouse_interface - MouseRefComp - Structural</ClosedNode>
+         <ClosedNode>/emac_example_design C:|VHDL|fpga_client_v2|emac_example_design.v/dvi_encoder - dvi_encoder</ClosedNode>
+         <ClosedNode>/emac_example_design C:|VHDL|fpga_client_v2|emac_example_design.v/dvi_reset - dvi_reset/i2c_master_top - i2c_master_top</ClosedNode>
+         <ClosedNode>/emac_example_design C:|VHDL|fpga_client_v2|emac_example_design.v/frame_buffer - frame_buffer/mig_controller - mig_controller/u_ddr2_top_0 - ddr2_top</ClosedNode>
+         <ClosedNode>/emac_example_design C:|VHDL|fpga_client_v2|emac_example_design.v/frame_buffer - frame_buffer/mig_controller - mig_controller/u_ddr2_top_0 - ddr2_top/u_mem_if_top - ddr2_mem_if_top/u_usr_top - ddr2_usr_top</ClosedNode>
+         <ClosedNode>/emac_example_design C:|VHDL|fpga_client_v2|emac_example_design.v/frame_buffer - frame_buffer/ram_mux - ram_mux</ClosedNode>
+         <ClosedNode>/emac_example_design C:|VHDL|fpga_client_v2|emac_example_design.v/pkg_dc97</ClosedNode>
+         <ClosedNode>/emac_example_design C:|VHDL|fpga_client_v2|emac_example_design.v/sound_buffering - sound_buffering/bass_amp_left - Bass - Behavioral</ClosedNode>
+         <ClosedNode>/emac_example_design C:|VHDL|fpga_client_v2|emac_example_design.v/sound_buffering - sound_buffering/bass_amp_right - Bass - Behavioral</ClosedNode>
+         <ClosedNode>/emac_example_design C:|VHDL|fpga_client_v2|emac_example_design.v/tx_data - tx_data</ClosedNode>
+         <ClosedNode>/emac_example_design C:|VHDL|fpga_client_v2|emac_example_design.v/tx_data_mac - tx_data_mac</ClosedNode>
+         <ClosedNode>/emac_example_design C:|VHDL|fpga_client_v2|emac_example_design.v/v5_emac_ll - emac_locallink</ClosedNode>
+         <ClosedNode>/emac_locallink C:|VHDL|fpga_client_v2|emac_locallink.v</ClosedNode>
+         <ClosedNode>/frame_buffer C:|VHDL|fpga_client_v2|frame_buffer.v</ClosedNode>
+         <ClosedNode>/frame_buffer C:|VHDL|fpga_client_v2|frame_buffer.v/mig_controller - mig_controller</ClosedNode>
+         <ClosedNode>/frame_buffer C:|VHDL|fpga_client_v2|frame_buffer.v/ram_mux - ram_mux</ClosedNode>
+         <ClosedNode>/keyboard C:|VHDL|fpga_client_v2|keyboard.v</ClosedNode>
+         <ClosedNode>/mig_controller C:|VHDL|fpga_client_v2|mig_controller.v</ClosedNode>
+         <ClosedNode>/mouse C:|VHDL|fpga_client_v2|mouse.v</ClosedNode>
+         <ClosedNode>/ram_controller C:|VHDL|fpga_client_v2|ram_controller.v/u_ddr2_top_0 - ddr2_top</ClosedNode>
+         <ClosedNode>/ram_mux C:|VHDL|fpga_client_v2|ram_mux.v</ClosedNode>
+         <ClosedNode>/rtfTextController C:|VHDL|fpga_client_v2|rtfTextController.v</ClosedNode>
+         <ClosedNode>/rtfTextController3 C:|VHDL|fpga_client_v2|rtfTextController3.v</ClosedNode>
+         <ClosedNode>/top C:|VHDL|fpga_client_v2|top.v/data_tx_rx - data_tx_rx</ClosedNode>
+         <ClosedNode>/top C:|VHDL|fpga_client_v2|top.v/devices - devices</ClosedNode>
+         <ClosedNode>/top C:|VHDL|fpga_client_v2|top.v/devices - devices/keyboard - keyboard</ClosedNode>
+         <ClosedNode>/top C:|VHDL|fpga_client_v2|top.v/devices - devices/mouse - mouse</ClosedNode>
+         <ClosedNode>/top C:|VHDL|fpga_client_v2|top.v/emac - emac_example_design</ClosedNode>
+         <ClosedNode>/tx_data_mac C:|VHDL|fpga_client_v2|address_swap_module_8.v</ClosedNode>
+         <ClosedNode>/vga80x40_test - behavioral C:|Users|Alexandros|Downloads|if_vga80x40|hw|vga80x40_test.vhd</ClosedNode>
+         <ClosedNode>/vga80x40_test - behavioral C:|Users|Alexandros|Downloads|if_vga80x40|hw|vga80x40_test.vhd/U_VGA - vga80x40 - rtl</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>emac_example_design (C:/VHDL/fpga_client_v2/emac_example_design.v)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000001d0000000020000000000000000000000000200000064ffffffff000000810000000300000002000001d00000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>emac_example_design (C:/VHDL/fpga_client_v2/emac_example_design.v)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000103000000010000000100000000000000000000000064ffffffff000000810000000000000001000001030000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView guiview="File" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>emac_example_design.v</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000000000000001000000000000000000000000000000000000027d000000040101000100000000000000000000000064ffffffff0000008100000000000000040000007f0000000100000000000000240000000100000000000000660000000100000000000001740000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>emac_example_design.v</CurrentItem>
+   </ItemView>
+   <ItemView guiview="Library" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>work</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000109000000010001000100000000000000000000000064ffffffff000000810000000000000001000001090000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>work</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VERILOG" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Configure Target Device</ClosedNode>
+         <ClosedNode>Implement Design/Map</ClosedNode>
+         <ClosedNode>Implement Design/Place &amp; Route</ClosedNode>
+         <ClosedNode>Implement Design/Translate</ClosedNode>
+         <ClosedNode>Synthesize - XST</ClosedNode>
+         <ClosedNode>User Constraints</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Configure Target Device</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >6</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f2000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f20000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Configure Target Device</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_XCO" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000103000000010000000100000000000000000000000064ffffffff000000810000000000000001000001030000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_UCF" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>User Constraints</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000103000000010000000100000000000000000000000064ffffffff000000810000000000000001000001030000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <SourceProcessView>000000ff000000000000000200000103000000bb01000000050100000002</SourceProcessView>
+   <CurrentView>Implementation</CurrentView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Configure Target Device</ClosedNode>
+         <ClosedNode>Design Utilities</ClosedNode>
+         <ClosedNode>Implement Design/Map</ClosedNode>
+         <ClosedNode>Implement Design/Place &amp; Route</ClosedNode>
+         <ClosedNode>Implement Design/Translate</ClosedNode>
+         <ClosedNode>Synthesize - XST</ClosedNode>
+         <ClosedNode>User Constraints</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000103000000010000000100000000000000000000000064ffffffff000000810000000000000001000001030000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/Automatic `includes</ClosedNode>
+         <ClosedNode>/arp_responder - rtl C:|VHDL|fpga_client_v2|arp_responder.vhdl</ClosedNode>
+         <ClosedNode>/devices C:|VHDL|fpga_client_v2|devices.v</ClosedNode>
+         <ClosedNode>/emac_example_design C:|VHDL|fpga_client_v2|emac_example_design.v/ac97_codec - ac97_if - IMP</ClosedNode>
+         <ClosedNode>/emac_example_design C:|VHDL|fpga_client_v2|emac_example_design.v/bass_amp_left - Bass - Behavioral</ClosedNode>
+         <ClosedNode>/emac_example_design C:|VHDL|fpga_client_v2|emac_example_design.v/bass_amp_right - Bass - Behavioral</ClosedNode>
+         <ClosedNode>/emac_example_design C:|VHDL|fpga_client_v2|emac_example_design.v/data_tx_rx - data_tx_rx</ClosedNode>
+         <ClosedNode>/emac_example_design C:|VHDL|fpga_client_v2|emac_example_design.v/devices - devices</ClosedNode>
+         <ClosedNode>/emac_example_design C:|VHDL|fpga_client_v2|emac_example_design.v/dvi_reset - dvi_reset</ClosedNode>
+         <ClosedNode>/emac_example_design C:|VHDL|fpga_client_v2|emac_example_design.v/tx_data_mac - tx_data_mac</ClosedNode>
+         <ClosedNode>/emac_example_design C:|VHDL|fpga_client_v2|emac_example_design.v/v5_emac_ll - emac_locallink</ClosedNode>
+         <ClosedNode>/ram_2940x16 C:|VHDL|fpga_client_v2|ram_2940x16.v</ClosedNode>
+         <ClosedNode>/tb_arbitrator C:|VHDL|fpga_client_v2|tb_arbitrator.v</ClosedNode>
+         <ClosedNode>/tb_arp C:|VHDL|fpga_client_v2|tb_arp.v</ClosedNode>
+         <ClosedNode>/tb_arp C:|VHDL|fpga_client_v2|tb_arp.v/uut - tx_data_mac</ClosedNode>
+         <ClosedNode>/tb_cdc C:|VHDL|fpga_client_v2|tb_cdc.v</ClosedNode>
+         <ClosedNode>/tb_crc C:|VHDL|fpga_client_v2|tb_crc.v</ClosedNode>
+         <ClosedNode>/tb_data_tx C:|VHDL|fpga_client_v2|tb_data_tx.v</ClosedNode>
+         <ClosedNode>/tb_dvi C:|VHDL|fpga_client_v2|tb_dvi.v/uut - dvi_reset</ClosedNode>
+         <ClosedNode>/tb_dvi_drawer C:|VHDL|fpga_client_v2|tb_dvi_drawer.v</ClosedNode>
+         <ClosedNode>/tb_edge_detector C:|VHDL|fpga_client_v2|tb_edge_detector.v</ClosedNode>
+         <ClosedNode>/tb_ethernet_to_ram C:|VHDL|fpga_client_v2|tb_ethernet_to_ram.v</ClosedNode>
+         <ClosedNode>/tb_frame_buffer C:|VHDL|fpga_client_v2|tb_frame_buffer.v</ClosedNode>
+         <ClosedNode>/tb_frame_buffer C:|VHDL|fpga_client_v2|tb_frame_buffer.v/uut - frame_buffer</ClosedNode>
+         <ClosedNode>/tb_frame_reader C:|VHDL|fpga_client_v2|tb_frame_reader.v</ClosedNode>
+         <ClosedNode>/tb_keyboard_control C:|VHDL|fpga_client_v2|tb_keyboard_control.v</ClosedNode>
+         <ClosedNode>/tb_mouse_configure C:|VHDL|fpga_client_v2|tb_mouse_configure.v</ClosedNode>
+         <ClosedNode>/tb_peripheral_monitor C:|VHDL|fpga_client_v2|tb_peripheral_monitor.v</ClosedNode>
+         <ClosedNode>/tb_ram_initiate C:|VHDL|fpga_client_v2|tb_ram_initiate.v</ClosedNode>
+         <ClosedNode>/tb_ram_mux C:|VHDL|fpga_client_v2|tb_ram_mux.v</ClosedNode>
+         <ClosedNode>/tb_ram_ram C:|VHDL|fpga_client_v2|tb_ram_ram.v</ClosedNode>
+         <ClosedNode>/tb_ram_ram C:|VHDL|fpga_client_v2|tb_ram_ram.v/uut - ram_mux</ClosedNode>
+         <ClosedNode>/tb_read_burst C:|VHDL|fpga_client_v2|tb_read_burst.v</ClosedNode>
+         <ClosedNode>/tb_rx_data_mac C:|VHDL|fpga_client_v2|tb_rx_data_mac.v</ClosedNode>
+         <ClosedNode>/tb_sound_packet C:|VHDL|fpga_client_v2|tb_sound_packet.v</ClosedNode>
+         <ClosedNode>/tb_top C:|VHDL|fpga_client_v2|tb_top.v</ClosedNode>
+         <ClosedNode>/tb_top C:|VHDL|fpga_client_v2|tb_top.v/uut - top/data_tx_rx - data_tx_rx</ClosedNode>
+         <ClosedNode>/tb_write_burst C:|VHDL|fpga_client_v2|tb_write_burst.v</ClosedNode>
+         <ClosedNode>/tb_zbt_top_vhd - behavior C:|VHDL|fpga_client_v2|tb_zbt_top.vhd</ClosedNode>
+         <ClosedNode>/top C:|VHDL|fpga_client_v2|top.v</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>tb_sound_buffer (C:/VHDL/fpga_client_v2/tb_sound_buffer.v)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >45</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000001d0000000020000000000000000000000000200000064ffffffff000000810000000300000002000001d00000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>tb_sound_buffer (C:/VHDL/fpga_client_v2/tb_sound_buffer.v)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000103000000010000000100000000000000000000000064ffffffff000000810000000000000001000001030000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="DESUT_VERILOG" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000103000000010000000100000000000000000000000064ffffffff000000810000000000000001000001030000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_BMM" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" />
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VHDL_PACKAGE_DECL" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f4000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f40000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="PostTransSim" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/tb_arp C:|VHDL|fpga_client_v2|tb_arp.v</ClosedNode>
+         <ClosedNode>/tb_crc C:|VHDL|fpga_client_v2|tb_crc.v</ClosedNode>
+         <ClosedNode>/tb_data_tx C:|VHDL|fpga_client_v2|tb_data_tx.v</ClosedNode>
+         <ClosedNode>/tb_data_tx_rx C:|VHDL|fpga_client_v2|tb_data_tx_rx.v</ClosedNode>
+         <ClosedNode>/tb_edge_detector C:|VHDL|fpga_client_v2|tb_edge_detector.v</ClosedNode>
+         <ClosedNode>/tb_keyboard_control C:|VHDL|fpga_client_v2|tb_keyboard_control.v</ClosedNode>
+         <ClosedNode>/tb_mouse_configure C:|VHDL|fpga_client_v2|tb_mouse_configure.v</ClosedNode>
+         <ClosedNode>/tb_peripheral_monitor C:|VHDL|fpga_client_v2|tb_peripheral_monitor.v</ClosedNode>
+         <ClosedNode>/tb_rx_data_mac C:|VHDL|fpga_client_v2|tb_rx_data_mac.v</ClosedNode>
+         <ClosedNode>/tb_sound_buffer C:|VHDL|fpga_client_v2|tb_sound_buffer.v</ClosedNode>
+         <ClosedNode>/tb_sound_packet C:|VHDL|fpga_client_v2|tb_sound_packet.v</ClosedNode>
+         <ClosedNode>/tb_top C:|VHDL|fpga_client_v2|tb_top.v</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Unassigned User Library Modules</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000141000000020000000000000000000000000200000064ffffffff000000810000000300000002000001410000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Unassigned User Library Modules</CurrentItem>
+   </ItemView>
+   <ItemView engineview="PostTransSim" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000ef000000010000000100000000000000000000000064ffffffff000000810000000000000001000000ef0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="PostMapSim" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/tb_arp C:|VHDL|fpga_client_v2|tb_arp.v</ClosedNode>
+         <ClosedNode>/tb_crc C:|VHDL|fpga_client_v2|tb_crc.v</ClosedNode>
+         <ClosedNode>/tb_data_tx C:|VHDL|fpga_client_v2|tb_data_tx.v</ClosedNode>
+         <ClosedNode>/tb_data_tx_rx C:|VHDL|fpga_client_v2|tb_data_tx_rx.v</ClosedNode>
+         <ClosedNode>/tb_edge_detector C:|VHDL|fpga_client_v2|tb_edge_detector.v</ClosedNode>
+         <ClosedNode>/tb_keyboard_control C:|VHDL|fpga_client_v2|tb_keyboard_control.v</ClosedNode>
+         <ClosedNode>/tb_mouse_configure C:|VHDL|fpga_client_v2|tb_mouse_configure.v</ClosedNode>
+         <ClosedNode>/tb_peripheral_monitor C:|VHDL|fpga_client_v2|tb_peripheral_monitor.v</ClosedNode>
+         <ClosedNode>/tb_rx_data_mac C:|VHDL|fpga_client_v2|tb_rx_data_mac.v</ClosedNode>
+         <ClosedNode>/tb_sound_buffer C:|VHDL|fpga_client_v2|tb_sound_buffer.v</ClosedNode>
+         <ClosedNode>/tb_sound_packet C:|VHDL|fpga_client_v2|tb_sound_packet.v</ClosedNode>
+         <ClosedNode>/tb_top C:|VHDL|fpga_client_v2|tb_top.v</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Unassigned User Library Modules</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000141000000020000000000000000000000000200000064ffffffff000000810000000300000002000001410000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Unassigned User Library Modules</CurrentItem>
+   </ItemView>
+   <ItemView engineview="PostMapSim" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000ef000000010000000100000000000000000000000064ffffffff000000810000000000000001000000ef0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="PostRouteSim" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/tb_arp C:|VHDL|fpga_client_v2|tb_arp.v</ClosedNode>
+         <ClosedNode>/tb_crc C:|VHDL|fpga_client_v2|tb_crc.v</ClosedNode>
+         <ClosedNode>/tb_data_tx C:|VHDL|fpga_client_v2|tb_data_tx.v</ClosedNode>
+         <ClosedNode>/tb_data_tx_rx C:|VHDL|fpga_client_v2|tb_data_tx_rx.v</ClosedNode>
+         <ClosedNode>/tb_edge_detector C:|VHDL|fpga_client_v2|tb_edge_detector.v</ClosedNode>
+         <ClosedNode>/tb_keyboard_control C:|VHDL|fpga_client_v2|tb_keyboard_control.v</ClosedNode>
+         <ClosedNode>/tb_mouse_configure C:|VHDL|fpga_client_v2|tb_mouse_configure.v</ClosedNode>
+         <ClosedNode>/tb_peripheral_monitor C:|VHDL|fpga_client_v2|tb_peripheral_monitor.v</ClosedNode>
+         <ClosedNode>/tb_rx_data_mac C:|VHDL|fpga_client_v2|tb_rx_data_mac.v</ClosedNode>
+         <ClosedNode>/tb_sound_buffer C:|VHDL|fpga_client_v2|tb_sound_buffer.v</ClosedNode>
+         <ClosedNode>/tb_sound_packet C:|VHDL|fpga_client_v2|tb_sound_packet.v</ClosedNode>
+         <ClosedNode>/tb_top C:|VHDL|fpga_client_v2|tb_top.v</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Unassigned User Library Modules</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000141000000020000000000000000000000000200000064ffffffff000000810000000300000002000001410000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Unassigned User Library Modules</CurrentItem>
+   </ItemView>
+   <ItemView engineview="PostRouteSim" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000ef000000010000000100000000000000000000000064ffffffff000000810000000000000001000000ef0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="DESUT_XCO" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000103000000010000000100000000000000000000000064ffffffff000000810000000000000001000001030000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_NGC" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000ef000000010000000100000000000000000000000064ffffffff000000810000000000000001000000ef0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VHDL_PACKAGE_BODY" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000ef000000010000000100000000000000000000000064ffffffff000000810000000000000001000000ef0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_XAW" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000103000000010000000100000000000000000000000064ffffffff000000810000000000000001000001030000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>ISim Simulator</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f4000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f40000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_CDC" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000103000000010000000100000000000000000000000064ffffffff000000810000000000000001000001030000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+</Project>

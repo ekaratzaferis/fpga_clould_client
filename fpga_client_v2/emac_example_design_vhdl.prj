@@ -1,0 +1,6 @@
+vhdl work "C:\VHDL\fpga_client_v2\ac97_timing.vhd"
+vhdl work "C:\VHDL\fpga_client_v2\ac97_core.vhd"
+vhdl work "C:\VHDL\fpga_client_v2\ac97_command_rom.vhd"
+vhdl work "C:\VHDL\fpga_client_v2\HDMIController.vhd"
+vhdl work "C:\VHDL\fpga_client_v2\clock_gen.vhd"
+vhdl work "C:\VHDL\fpga_client_v2\ac97_if.vhd"

@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/VHDL/fpga_client_v2/tb_ram_mux_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_ram_mux" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="12" />
+   <wvobject fp_name="divider19" type="divider">
+      <obj_property name="label">SYSTEM</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">#000080</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="group43" type="group">
+      <obj_property name="label">SYSTEM</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb_ram_mux/clk0_tb" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">clk0_tb</obj_property>
+         <obj_property name="ObjectShortName">clk0_tb</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_ram_mux/rst0_tb" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">rst0_tb</obj_property>
+         <obj_property name="ObjectShortName">rst0_tb</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_ram_mux/debug" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">debug[7:0]</obj_property>
+         <obj_property name="ObjectShortName">debug[7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="divider37" type="divider">
+      <obj_property name="label">COMPONENTS</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">#ff00ff</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="group36" type="group">
+      <obj_property name="label">RAM INIT</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb_ram_mux/uut/ram_initiator/ram_init" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">ram_init</obj_property>
+         <obj_property name="ObjectShortName">ram_init</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_ram_mux/uut/ram_initiator/delay" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">delay[6:0]</obj_property>
+         <obj_property name="ObjectShortName">delay[6:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_ram_mux/uut/ram_initiator/counter" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">counter[15:0]</obj_property>
+         <obj_property name="ObjectShortName">counter[15:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_ram_mux/uut/ram_initiator/i_write_ram" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">i_write_ram</obj_property>
+         <obj_property name="ObjectShortName">i_write_ram</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_ram_mux/uut/ram_initiator/i_write_data" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">i_write_data[767:0]</obj_property>
+         <obj_property name="ObjectShortName">i_write_data[767:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_ram_mux/uut/ram_initiator/i_write_address" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">i_write_address[31:0]</obj_property>
+         <obj_property name="ObjectShortName">i_write_address[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_ram_mux/uut/ram_initiator/m_write_ram" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">m_write_ram</obj_property>
+         <obj_property name="ObjectShortName">m_write_ram</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_ram_mux/uut/ram_initiator/m_write_address" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">m_write_address[31:0]</obj_property>
+         <obj_property name="ObjectShortName">m_write_address[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_ram_mux/uut/ram_initiator/m_write_data" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">m_write_data[767:0]</obj_property>
+         <obj_property name="ObjectShortName">m_write_data[767:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group86" type="group">
+      <obj_property name="label">ARBITRATOR</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb_ram_mux/uut/arbitrator/phy_init_done" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">phy_init_done</obj_property>
+         <obj_property name="ObjectShortName">phy_init_done</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_ram_mux/uut/arbitrator/write_in" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">write_in</obj_property>
+         <obj_property name="ObjectShortName">write_in</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#800000</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_ram_mux/uut/arbitrator/write_out" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">write_out</obj_property>
+         <obj_property name="ObjectShortName">write_out</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_ram_mux/uut/arbitrator/w_busy" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">w_busy</obj_property>
+         <obj_property name="ObjectShortName">w_busy</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_ram_mux/uut/arbitrator/forward_write" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">forward_write</obj_property>
+         <obj_property name="ObjectShortName">forward_write</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_ram_mux/uut/arbitrator/w_address_in" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">w_address_in[31:0]</obj_property>
+         <obj_property name="ObjectShortName">w_address_in[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_ram_mux/uut/arbitrator/w_data_in" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">w_data_in[767:0]</obj_property>
+         <obj_property name="ObjectShortName">w_data_in[767:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_ram_mux/uut/arbitrator/w_address_out" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">w_address_out[31:0]</obj_property>
+         <obj_property name="ObjectShortName">w_address_out[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_ram_mux/uut/arbitrator/w_data_out" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">w_data_out[767:0]</obj_property>
+         <obj_property name="ObjectShortName">w_data_out[767:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_ram_mux/uut/arbitrator/temp_write_data_in" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">temp_write_data_in[767:0]</obj_property>
+         <obj_property name="ObjectShortName">temp_write_data_in[767:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_ram_mux/uut/arbitrator/block" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">block[2:0]</obj_property>
+         <obj_property name="ObjectShortName">block[2:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_ram_mux/uut/arbitrator/read_in" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">read_in</obj_property>
+         <obj_property name="ObjectShortName">read_in</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#00ffff</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_ram_mux/uut/arbitrator/read_out" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">read_out</obj_property>
+         <obj_property name="ObjectShortName">read_out</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_ram_mux/uut/arbitrator/r_busy" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">r_busy</obj_property>
+         <obj_property name="ObjectShortName">r_busy</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_ram_mux/uut/arbitrator/forward_read" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">forward_read</obj_property>
+         <obj_property name="ObjectShortName">forward_read</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_ram_mux/uut/arbitrator/r_address_in" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">r_address_in[31:0]</obj_property>
+         <obj_property name="ObjectShortName">r_address_in[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_ram_mux/uut/arbitrator/r_address_out" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">r_address_out[31:0]</obj_property>
+         <obj_property name="ObjectShortName">r_address_out[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_ram_mux/uut/arbitrator/temp_write_address_in" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">temp_write_address_in[31:0]</obj_property>
+         <obj_property name="ObjectShortName">temp_write_address_in[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_ram_mux/uut/arbitrator/temp_read_address_in" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">temp_read_address_in[31:0]</obj_property>
+         <obj_property name="ObjectShortName">temp_read_address_in[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group45" type="group">
+      <obj_property name="label">FRAME READER</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb_ram_mux/uut/frame_reader/ram_init" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">ram_init</obj_property>
+         <obj_property name="ObjectShortName">ram_init</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_ram_mux/uut/frame_reader/phy_init_done" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">phy_init_done</obj_property>
+         <obj_property name="ObjectShortName">phy_init_done</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_ram_mux/uut/frame_reader/new_frame" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">new_frame</obj_property>
+         <obj_property name="ObjectShortName">new_frame</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_ram_mux/uut/frame_reader/ask_data" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">ask_data</obj_property>
+         <obj_property name="ObjectShortName">ask_data</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_ram_mux/uut/frame_reader/reading" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">reading</obj_property>
+         <obj_property name="ObjectShortName">reading</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_ram_mux/uut/frame_reader/read_out" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">read_out</obj_property>
+         <obj_property name="ObjectShortName">read_out</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_ram_mux/uut/frame_reader/fsm" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">fsm[4:0]</obj_property>
+         <obj_property name="ObjectShortName">fsm[4:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_ram_mux/uut/frame_reader/r_address_out" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">r_address_out[31:0]</obj_property>
+         <obj_property name="ObjectShortName">r_address_out[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_ram_mux/uut/frame_reader/ready" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">ready</obj_property>
+         <obj_property name="ObjectShortName">ready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_ram_mux/uut/frame_reader/read_data" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">read_data[6143:0]</obj_property>
+         <obj_property name="ObjectShortName">read_data[6143:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_ram_mux/uut/frame_reader/read_data_in" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">read_data_in[767:0]</obj_property>
+         <obj_property name="ObjectShortName">read_data_in[767:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_ram_mux/uut/frame_reader/burst_counter" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">burst_counter[2:0]</obj_property>
+         <obj_property name="ObjectShortName">burst_counter[2:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_ram_mux/uut/frame_reader/counter" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">counter[7:0]</obj_property>
+         <obj_property name="ObjectShortName">counter[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_ram_mux/uut/frame_reader/temp_add" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">temp_add[31:0]</obj_property>
+         <obj_property name="ObjectShortName">temp_add[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group75" type="group">
+      <obj_property name="label">WRITE BURST</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb_ram_mux/uut/write_burst/write" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">write</obj_property>
+         <obj_property name="ObjectShortName">write</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_ram_mux/uut/write_burst/data" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">data[767:0]</obj_property>
+         <obj_property name="ObjectShortName">data[767:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_ram_mux/uut/write_burst/address_in" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">address_in[31:0]</obj_property>
+         <obj_property name="ObjectShortName">address_in[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_ram_mux/uut/write_burst/busy" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">busy</obj_property>
+         <obj_property name="ObjectShortName">busy</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_ram_mux/uut/write_burst/write_enable" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">write_enable</obj_property>
+         <obj_property name="ObjectShortName">write_enable</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_ram_mux/uut/write_burst/address_enable" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">address_enable</obj_property>
+         <obj_property name="ObjectShortName">address_enable</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_ram_mux/uut/write_burst/write_command" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">write_command[2:0]</obj_property>
+         <obj_property name="ObjectShortName">write_command[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_ram_mux/uut/write_burst/write_data" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">write_data[127:0]</obj_property>
+         <obj_property name="ObjectShortName">write_data[127:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_ram_mux/uut/write_burst/address_out" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">address_out[31:0]</obj_property>
+         <obj_property name="ObjectShortName">address_out[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_ram_mux/uut/write_burst/write_fsm" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">write_fsm[3:0]</obj_property>
+         <obj_property name="ObjectShortName">write_fsm[3:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group61" type="group">
+      <obj_property name="label">READ BURST</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb_ram_mux/uut/read_burst/read" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">read</obj_property>
+         <obj_property name="ObjectShortName">read</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_ram_mux/uut/read_burst/address_in" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">address_in[31:0]</obj_property>
+         <obj_property name="ObjectShortName">address_in[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_ram_mux/uut/read_burst/valid" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">valid</obj_property>
+         <obj_property name="ObjectShortName">valid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_ram_mux/uut/read_burst/read_data_in" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">read_data_in[127:0]</obj_property>
+         <obj_property name="ObjectShortName">read_data_in[127:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_ram_mux/uut/read_burst/read_data_out" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">read_data_out[767:0]</obj_property>
+         <obj_property name="ObjectShortName">read_data_out[767:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_ram_mux/uut/read_burst/busy" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">busy</obj_property>
+         <obj_property name="ObjectShortName">busy</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_ram_mux/uut/read_burst/ready" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">ready</obj_property>
+         <obj_property name="ObjectShortName">ready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_ram_mux/uut/read_burst/read_command" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">read_command[2:0]</obj_property>
+         <obj_property name="ObjectShortName">read_command[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_ram_mux/uut/read_burst/read_address_enable" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">read_address_enable</obj_property>
+         <obj_property name="ObjectShortName">read_address_enable</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_ram_mux/uut/read_burst/address_out" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">address_out[31:0]</obj_property>
+         <obj_property name="ObjectShortName">address_out[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_ram_mux/uut/read_burst/read_fsm" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">read_fsm[4:0]</obj_property>
+         <obj_property name="ObjectShortName">read_fsm[4:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="divider23" type="divider">
+      <obj_property name="label">INTERFACE</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">#ff0000</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="group38" type="group">
+      <obj_property name="label">ETHERNET</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb_ram_mux/write_ram" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">write_ram</obj_property>
+         <obj_property name="ObjectShortName">write_ram</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_ram_mux/write_address" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">write_address[31:0]</obj_property>
+         <obj_property name="ObjectShortName">write_address[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_ram_mux/write_data" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">write_data[767:0]</obj_property>
+         <obj_property name="ObjectShortName">write_data[767:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group39" type="group">
+      <obj_property name="label">DVI</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb_ram_mux/ask_data" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">ask_data</obj_property>
+         <obj_property name="ObjectShortName">ask_data</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_ram_mux/new_frame" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">new_frame</obj_property>
+         <obj_property name="ObjectShortName">new_frame</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_ram_mux/read_data" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">read_data[6143:0]</obj_property>
+         <obj_property name="ObjectShortName">read_data[6143:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group44" type="group">
+      <obj_property name="label">RAM</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb_ram_mux/phy_init_done" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">phy_init_done</obj_property>
+         <obj_property name="ObjectShortName">phy_init_done</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_ram_mux/uut/ram_init" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">ram_init</obj_property>
+         <obj_property name="ObjectShortName">ram_init</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_ram_mux/cmd" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">cmd[2:0]</obj_property>
+         <obj_property name="ObjectShortName">cmd[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_ram_mux/uut/write_busy" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">write_busy</obj_property>
+         <obj_property name="ObjectShortName">write_busy</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_ram_mux/wdf_we" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">wdf_we</obj_property>
+         <obj_property name="ObjectShortName">wdf_we</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_ram_mux/af_we" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">af_we</obj_property>
+         <obj_property name="ObjectShortName">af_we</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_ram_mux/app_af_afull" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">app_af_afull</obj_property>
+         <obj_property name="ObjectShortName">app_af_afull</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_ram_mux/app_wdf_afull" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">app_wdf_afull</obj_property>
+         <obj_property name="ObjectShortName">app_wdf_afull</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_ram_mux/address" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">address[30:0]</obj_property>
+         <obj_property name="ObjectShortName">address[30:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_ram_mux/w_data" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">w_data[127:0]</obj_property>
+         <obj_property name="ObjectShortName">w_data[127:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_ram_mux/rd_data_valid" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">rd_data_valid</obj_property>
+         <obj_property name="ObjectShortName">rd_data_valid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_ram_mux/rd_data_fifo_out" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">rd_data_fifo_out[127:0]</obj_property>
+         <obj_property name="ObjectShortName">rd_data_fifo_out[127:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

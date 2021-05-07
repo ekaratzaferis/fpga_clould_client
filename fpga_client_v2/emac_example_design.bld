@@ -1,0 +1,127 @@
+Release 14.7 ngdbuild P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Command Line: C:\Xilinx2\14.7\ISE_DS\ISE\bin\nt64\unwrapped\ngdbuild.exe -filter
+iseconfig/filter.filter -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc
+top_ucf.ucf -uc MIG.ucf -p xc5vlx110t-ff1136-1 emac_example_design.ngc
+emac_example_design.ngd
+
+Reading NGO file "C:/VHDL/fpga_client_v2/emac_example_design.ngc" ...
+Loading design module "ipcore_dir/ram_2940x16.ngc"...
+Gathering constraint information from source properties...
+Done.
+
+Annotating constraints to design from ucf file "top_ucf.ucf" ...
+Annotating constraints to design from ucf file "MIG.ucf" ...
+Resolving constraint associations...
+Checking Constraint Associations...
+WARNING:ConstraintSystem - TNM : clk_tx0 was distributed to a DCM but new TNM
+   constraints were not derived. This TNM is used in the following user groups
+   or specifications:
+   <TIMEGRP  "emac_tx_clk0"            = "clk_tx0";> [top_ucf.ucf(71)]
+
+INFO:ConstraintSystem - The Period constraint <NET AC97_clk PERIOD = 10000 ps;>
+   [top_ucf.ucf(30)], is specified using the Net Period method which is not
+   recommended. Please use the Timespec PERIOD method.
+
+WARNING:NgdBuild:1012 - The constraint <INST
+   /emac_example_design/EXPANDED/emac_example_design/v5_emac_ll\/v5_emac_block_i
+   nst\/gmii0\/GMII_TXD_7 IOB = true> is overridden on the design object
+   v5_emac_ll/v5_emac_block_inst/gmii0/GMII_TXD_7 by the constraint <INST
+   "*gmii0?GMII_TXD_?"     IOB = true;> [top_ucf.ucf(116)].
+WARNING:NgdBuild:1012 - The constraint <INST
+   /emac_example_design/EXPANDED/emac_example_design/v5_emac_ll\/v5_emac_block_i
+   nst\/gmii0\/GMII_TXD_6 IOB = true> is overridden on the design object
+   v5_emac_ll/v5_emac_block_inst/gmii0/GMII_TXD_6 by the constraint <INST
+   "*gmii0?GMII_TXD_?"     IOB = true;> [top_ucf.ucf(116)].
+WARNING:NgdBuild:1012 - The constraint <INST
+   /emac_example_design/EXPANDED/emac_example_design/v5_emac_ll\/v5_emac_block_i
+   nst\/gmii0\/GMII_TXD_5 IOB = true> is overridden on the design object
+   v5_emac_ll/v5_emac_block_inst/gmii0/GMII_TXD_5 by the constraint <INST
+   "*gmii0?GMII_TXD_?"     IOB = true;> [top_ucf.ucf(116)].
+WARNING:NgdBuild:1012 - The constraint <INST
+   /emac_example_design/EXPANDED/emac_example_design/v5_emac_ll\/v5_emac_block_i
+   nst\/gmii0\/GMII_TXD_4 IOB = true> is overridden on the design object
+   v5_emac_ll/v5_emac_block_inst/gmii0/GMII_TXD_4 by the constraint <INST
+   "*gmii0?GMII_TXD_?"     IOB = true;> [top_ucf.ucf(116)].
+WARNING:NgdBuild:1012 - The constraint <INST
+   /emac_example_design/EXPANDED/emac_example_design/v5_emac_ll\/v5_emac_block_i
+   nst\/gmii0\/GMII_TXD_3 IOB = true> is overridden on the design object
+   v5_emac_ll/v5_emac_block_inst/gmii0/GMII_TXD_3 by the constraint <INST
+   "*gmii0?GMII_TXD_?"     IOB = true;> [top_ucf.ucf(116)].
+WARNING:NgdBuild:1012 - The constraint <INST
+   /emac_example_design/EXPANDED/emac_example_design/v5_emac_ll\/v5_emac_block_i
+   nst\/gmii0\/GMII_TXD_2 IOB = true> is overridden on the design object
+   v5_emac_ll/v5_emac_block_inst/gmii0/GMII_TXD_2 by the constraint <INST
+   "*gmii0?GMII_TXD_?"     IOB = true;> [top_ucf.ucf(116)].
+WARNING:NgdBuild:1012 - The constraint <INST
+   /emac_example_design/EXPANDED/emac_example_design/v5_emac_ll\/v5_emac_block_i
+   nst\/gmii0\/GMII_TXD_1 IOB = true> is overridden on the design object
+   v5_emac_ll/v5_emac_block_inst/gmii0/GMII_TXD_1 by the constraint <INST
+   "*gmii0?GMII_TXD_?"     IOB = true;> [top_ucf.ucf(116)].
+WARNING:NgdBuild:1012 - The constraint <INST
+   /emac_example_design/EXPANDED/emac_example_design/v5_emac_ll\/v5_emac_block_i
+   nst\/gmii0\/GMII_TXD_0 IOB = true> is overridden on the design object
+   v5_emac_ll/v5_emac_block_inst/gmii0/GMII_TXD_0 by the constraint <INST
+   "*gmii0?GMII_TXD_?"     IOB = true;> [top_ucf.ucf(116)].
+WARNING:NgdBuild:1012 - The constraint <INST
+   /emac_example_design/EXPANDED/emac_example_design/v5_emac_ll\/v5_emac_block_i
+   nst\/gmii0\/GMII_TX_ER IOB = true> is overridden on the design object
+   v5_emac_ll/v5_emac_block_inst/gmii0/GMII_TX_ER by the constraint <INST
+   "*gmii0?GMII_TX_ER"     IOB = true;> [top_ucf.ucf(118)].
+WARNING:NgdBuild:1012 - The constraint <INST
+   /emac_example_design/EXPANDED/emac_example_design/v5_emac_ll\/v5_emac_block_i
+   nst\/gmii0\/GMII_TX_EN IOB = true> is overridden on the design object
+   v5_emac_ll/v5_emac_block_inst/gmii0/GMII_TX_EN by the constraint <INST
+   "*gmii0?GMII_TX_EN"     IOB = true;> [top_ucf.ucf(117)].
+Done...
+
+Checking expanded design ...
+WARNING:NgdBuild:443 - SFF primitive
+   'frame_buffer/MIG/u_ddr2_top_0/u_mem_if_top/u_phy_top/u_phy_io/u_phy_calib/ge
+   n_rden[7].u_calib_rden_r' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'frame_buffer/MIG/u_ddr2_top_0/u_mem_if_top/u_phy_top/u_phy_io/u_phy_calib/ge
+   n_rden[6].u_calib_rden_r' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'frame_buffer/MIG/u_ddr2_top_0/u_mem_if_top/u_phy_top/u_phy_io/u_phy_calib/ge
+   n_rden[5].u_calib_rden_r' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'frame_buffer/MIG/u_ddr2_top_0/u_mem_if_top/u_phy_top/u_phy_io/u_phy_calib/ge
+   n_rden[4].u_calib_rden_r' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'frame_buffer/MIG/u_ddr2_top_0/u_mem_if_top/u_phy_top/u_phy_io/u_phy_calib/ge
+   n_rden[3].u_calib_rden_r' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'frame_buffer/MIG/u_ddr2_top_0/u_mem_if_top/u_phy_top/u_phy_io/u_phy_calib/ge
+   n_rden[2].u_calib_rden_r' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'frame_buffer/MIG/u_ddr2_top_0/u_mem_if_top/u_phy_top/u_phy_io/u_phy_calib/ge
+   n_rden[1].u_calib_rden_r' has unconnected output pin
+WARNING:NgdBuild:452 - logical net 'N2085' has no driver
+WARNING:NgdBuild:452 - logical net 'N2086' has no driver
+WARNING:NgdBuild:452 - logical net 'N2087' has no driver
+WARNING:NgdBuild:452 - logical net 'N2088' has no driver
+WARNING:NgdBuild:452 - logical net 'N2089' has no driver
+WARNING:NgdBuild:452 - logical net 'N2090' has no driver
+WARNING:NgdBuild:452 - logical net 'N2091' has no driver
+WARNING:NgdBuild:452 - logical net 'N2092' has no driver
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:  26
+
+Total memory usage is 387104 kilobytes
+
+Writing NGD file "emac_example_design.ngd" ...
+Total REAL time to NGDBUILD completion: 1 min  9 sec
+Total CPU time to NGDBUILD completion:  1 min  7 sec
+
+Writing NGDBUILD log file "emac_example_design.bld"...

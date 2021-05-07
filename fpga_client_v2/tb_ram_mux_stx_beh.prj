@@ -1,0 +1,8 @@
+verilog isim_temp "write_burst.v"
+verilog isim_temp "read_burst.v"
+verilog isim_temp "ram_initiator.v"
+verilog isim_temp "frame_reader.v"
+verilog isim_temp "arbitrator.v"
+verilog isim_temp "ram_mux.v"
+verilog isim_temp "tb_ram_mux.v"
+verilog isim_temp "C:/Xilinx2/14.7/ISE_DS/ISE//verilog/src/glbl.v"

@@ -1,0 +1,28 @@
+Command line:
+   sound_buffering_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  53389
+
+Sat Jan 31 09:33:16 2015
+
+
+ Elaboration Time: 0.09375 sec
+
+ Current Memory Usage: 839.111 Meg
+
+ Total Signals          : 162
+ Total Nets             : 796
+ Total Signal Drivers   : 63
+ Total Blocks           : 19
+ Total Primitive Blocks : 15
+ Total Processes        : 75
+ Total Traceable Variables  : 353
+ Total Scalar Nets and Variables : 814988
+
+ Total Simulation Time: 0.1875 sec
+
+ Current Memory Usage: 839.111 Meg
+
+Sat Jan 31 09:33:24 2015
+

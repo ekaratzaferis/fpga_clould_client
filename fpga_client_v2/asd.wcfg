@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/VHDL/fpga_client_v2/tb_sound_buffer_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_sound_buffer" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="26" />
+   <wvobject fp_name="/tb_sound_buffer/left_channel" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">left_channel[15:0]</obj_property>
+      <obj_property name="ObjectShortName">left_channel[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_sound_buffer/right_channel" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">right_channel[15:0]</obj_property>
+      <obj_property name="ObjectShortName">right_channel[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_sound_buffer/new_sample" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">new_sample</obj_property>
+      <obj_property name="ObjectShortName">new_sample</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_sound_buffer/sound_packet" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">sound_packet</obj_property>
+      <obj_property name="ObjectShortName">sound_packet</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_sound_buffer/rx_data" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rx_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_data[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_sound_buffer/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider27" type="divider">
+      <obj_property name="label">Playback</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">128 128 255</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_sound_buffer/uut/playback" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">playback</obj_property>
+      <obj_property name="ObjectShortName">playback</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_sound_buffer/uut/playback_ram" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">playback_ram</obj_property>
+      <obj_property name="ObjectShortName">playback_ram</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_sound_buffer/uut/read_counter" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">read_counter[13:0]</obj_property>
+      <obj_property name="ObjectShortName">read_counter[13:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_sound_buffer/uut/playback_state" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">playback_state[5:0]</obj_property>
+      <obj_property name="ObjectShortName">playback_state[5:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_sound_buffer/uut/read_counter_max" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">read_counter_max[15:0]</obj_property>
+      <obj_property name="ObjectShortName">read_counter_max[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_sound_buffer/uut/playing" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">playing</obj_property>
+      <obj_property name="ObjectShortName">playing</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider9" type="divider">
+      <obj_property name="label">Capture</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">128 128 255</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_sound_buffer/uut/storing_state" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">storing_state[7:0]</obj_property>
+      <obj_property name="ObjectShortName">storing_state[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_sound_buffer/uut/active_ram" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">active_ram</obj_property>
+      <obj_property name="ObjectShortName">active_ram</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_sound_buffer/uut/playback" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">playback</obj_property>
+      <obj_property name="ObjectShortName">playback</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_sound_buffer/uut/write_counter" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">write_counter[13:0]</obj_property>
+      <obj_property name="ObjectShortName">write_counter[13:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_sound_buffer/uut/byte_counter" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">byte_counter[15:0]</obj_property>
+      <obj_property name="ObjectShortName">byte_counter[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider17" type="divider">
+      <obj_property name="label">RAM</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">128 128 255</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_sound_buffer/uut/din1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">din1[15:0]</obj_property>
+      <obj_property name="ObjectShortName">din1[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#808000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_sound_buffer/uut/din2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">din2[15:0]</obj_property>
+      <obj_property name="ObjectShortName">din2[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_sound_buffer/uut/wea1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">wea1[0:0]</obj_property>
+      <obj_property name="ObjectShortName">wea1[0:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#808000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_sound_buffer/uut/wea2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">wea2[0:0]</obj_property>
+      <obj_property name="ObjectShortName">wea2[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_sound_buffer/uut/dout1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dout1[15:0]</obj_property>
+      <obj_property name="ObjectShortName">dout1[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#808000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_sound_buffer/uut/dout2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dout2[15:0]</obj_property>
+      <obj_property name="ObjectShortName">dout2[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+</wave_config>

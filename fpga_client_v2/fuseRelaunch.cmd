@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "C:/VHDL/fpga_client_v2/tb_sound_buffer_isim_beh.exe" -prj "C:/VHDL/fpga_client_v2/tb_sound_buffer_beh.prj" "work.tb_sound_buffer" "work.glbl" 

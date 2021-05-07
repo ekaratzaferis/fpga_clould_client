@@ -1,0 +1,26 @@
+Running: fuse.exe -relaunch -intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "C:/VHDL/fpga_client_v2/tb_sound_buffer_isim_beh.exe" -prj "C:/VHDL/fpga_client_v2/tb_sound_buffer_beh.prj" "work.tb_sound_buffer" "work.glbl" 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/VHDL/fpga_client_v2/ipcore_dir/ram_2940x16.v" into library work
+Analyzing Verilog file "C:/VHDL/fpga_client_v2/sound_buffering.v" into library work
+Analyzing Verilog file "C:/VHDL/fpga_client_v2/tb_sound_buffer.v" into library work
+Analyzing Verilog file "C:/Xilinx2/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:1016 - "C:/VHDL/fpga_client_v2/tb_sound_buffer.v" Line 40: Port debug is not connected to this instance
+Completed static elaboration
+Compiling module BLK_MEM_GEN_V7_3_output_stage(C_...
+Compiling module BLK_MEM_GEN_V7_3_softecc_output_...
+Compiling module BLK_MEM_GEN_V7_3_mem_module(C_CO...
+Compiling module BLK_MEM_GEN_V7_3(C_FAMILY="virte...
+Compiling module ram_2940x16
+Compiling module sound_buffering
+Compiling module tb_sound_buffer
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 8 Verilog Units
+Built simulation executable C:/VHDL/fpga_client_v2/tb_sound_buffer_isim_beh.exe
+Fuse Memory Usage: 30152 KB
+Fuse CPU Usage: 874 ms

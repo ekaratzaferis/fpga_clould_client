@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\VHDL\fpga_client_v2\devices.ncd
+OUTFILE=C:\VHDL\fpga_client_v2\devices.bit
+FAMILY=Virtex5
+PART=xc5vlx110t-1ff1136
+WORKINGDIR=C:\VHDL\fpga_client_v2
+LICENSE=ISE
+USER_INFO=176550459_177799855_210552571_826

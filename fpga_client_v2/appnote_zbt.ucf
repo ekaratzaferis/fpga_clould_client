@@ -1,0 +1,6 @@
+# The following line is essential to avoid extra delay at the input pad
+NET dq* NODELAY;
+
+TIMESPEC TS01 = FROM FFS TO FFS 7;
+TIMESPEC TS02 = FROM PADS TO FFS 7;
+TIMESPEC TS03 = FROM FFS TO PADS 7;

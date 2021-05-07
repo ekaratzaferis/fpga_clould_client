@@ -1,0 +1,4 @@
+verilog work "ipcore_dir/ram_2940x16.v"
+verilog work "sound_buffering.v"
+verilog work "tb_sound_buffer.v"
+verilog work "C:/Xilinx2/14.7/ISE_DS/ISE//verilog/src/glbl.v"

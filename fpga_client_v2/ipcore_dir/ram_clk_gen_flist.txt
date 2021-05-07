@@ -1,0 +1,2 @@
+# Output products list for <ram_clk_gen>
+ram_clk_gen_flist.txt

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/VHDL/fpga_client_v2/tb_rx_data_mac_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_rx_data_mac" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="15" />
+   <wvobject fp_name="/tb_rx_data_mac/sof" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">sof</obj_property>
+      <obj_property name="ObjectShortName">sof</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_rx_data_mac/eof" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">eof</obj_property>
+      <obj_property name="ObjectShortName">eof</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_rx_data_mac/rx_valid" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rx_valid</obj_property>
+      <obj_property name="ObjectShortName">rx_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_rx_data_mac/data_rx" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">data_rx[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data_rx[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_rx_data_mac/length_rx" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">length_rx[15:0]</obj_property>
+      <obj_property name="ObjectShortName">length_rx[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_rx_data_mac/busy" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">busy</obj_property>
+      <obj_property name="ObjectShortName">busy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_rx_data_mac/rx_error" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rx_error</obj_property>
+      <obj_property name="ObjectShortName">rx_error</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_rx_data_mac/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_rx_data_mac/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_rx_data_mac/rx_data" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rx_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_rx_data_mac/rx_sof" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rx_sof</obj_property>
+      <obj_property name="ObjectShortName">rx_sof</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_rx_data_mac/rx_eof" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rx_eof</obj_property>
+      <obj_property name="ObjectShortName">rx_eof</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_rx_data_mac/rx_src_rdy" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rx_src_rdy</obj_property>
+      <obj_property name="ObjectShortName">rx_src_rdy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_rx_data_mac/mac_error" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">mac_error</obj_property>
+      <obj_property name="ObjectShortName">mac_error</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_rx_data_mac/uut/rx_state" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rx_state[8:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_state[8:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>

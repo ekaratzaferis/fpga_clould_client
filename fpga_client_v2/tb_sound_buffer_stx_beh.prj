@@ -1,0 +1,3 @@
+verilog isim_temp "sound_buffering.v"
+verilog isim_temp "tb_sound_buffer.v"
+verilog isim_temp "C:/Xilinx2/14.7/ISE_DS/ISE//verilog/src/glbl.v"
